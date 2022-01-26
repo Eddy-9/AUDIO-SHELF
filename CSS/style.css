@@ -19,7 +19,7 @@ a:hover
 
 button:hover
 {
-    border: 3px solid #000000;
+    border: 10px solid #000000;
     text-decoration: underline;
 }
 
