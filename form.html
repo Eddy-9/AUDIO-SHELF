@@ -17,7 +17,7 @@
             <div class="headerF">
 
                 <a href="">Товары</a>
-                <a href="" style="text-decoration: underline">Услуги</a>
+                <a href="">Услуги</a>
                 <div class="logo"><img alt="Лого" src="images/Logo.png" width="130"></div>
                 <a href="">Блог</a>
                 <a href="index.html">Контакты</a>
@@ -26,7 +26,7 @@
 
         <main>
             <div class="mainF">
-                <form name="Contact" method="post">
+                <form name="Contact" method="post" data-netlify="true">
                     <fieldset class="fieldsetF">
                         <legend>Данные для входа</legend>
 
@@ -53,10 +53,10 @@
                                 placeholder="88002004666" required></label>
                         <div class="select_line1"> Удобное время для связи: </div>
                         <div class="select_line2">
-                            <label><input type="checkbox" name="Время" value="Утро">Утро</label>
-                            <label><input type="checkbox" name="Время" value="День">День</label>
-                            <label><input type="checkbox" name="Время" value="Вечер">Вечер</label>
-                            <label><input type="checkbox" name="Время" value="Ночь">Ночь</label>
+                            <label><input type="checkbox" name="Время" value="Утро"><span class="timeF">Утро</span></label>
+                            <label><input type="checkbox" name="Время" value="День"><span class="timeF">День</span></label>
+                            <label><input type="checkbox" name="Время" value="Вечер"><span class="timeF">Вечер</span></label>
+                            <label><input type="checkbox" name="Время" value="Ночь"><span class="timeF">Ночь</span></label>
                         </div>
                     </fieldset>
 
