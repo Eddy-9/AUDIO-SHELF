@@ -47,6 +47,22 @@ button:active
     text-shadow: 0 0 1px black;
 }
 
+input:required 
+{
+    border: 1px solid red;
+}
+
+button:disabled
+{
+    background-color: #AAAAAA;
+}
+
+button:hover:disabled
+{
+    border: 2px solid #000000;
+}
+
+
 body
 {
     background-color: white;
