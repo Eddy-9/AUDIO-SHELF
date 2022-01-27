@@ -16,11 +16,11 @@
         <header>
             <div class="headerF">
 
-                <a href="">Товары</a>
-                <a href="">Услуги</a>
+                <a href="demo.html">Товары</a>
+                <a href="index.html">Услуги</a>
                 <div class="logo"><img alt="Лого" src="images/Logo.png" width="130"></div>
                 <a href="">Блог</a>
-                <a href="index.html">Контакты</a>
+                <a href="">Контакты</a>
             </div>
         </header>
 
@@ -30,8 +30,8 @@
                     <fieldset class="fieldsetF">
                         <legend>Данные для входа</legend>
 
-                        <label class="select_line3">Почта*<input type="email" name="Почта" placeholder="audioshells@gmail.com"
-                                class="inputF" required></label>
+                        <label class="select_line3">Почта*<input type="email" name="Почта"
+                                placeholder="audioshells@gmail.com" class="inputF" required></label>
                         <label for="password" class="select_line3">Пароль*<input type="password" name="Пароль"
                                 id="password" class="inputF" required></label>
                     </fieldset>
@@ -41,9 +41,9 @@
                         <label class="select_line3">Дата рождения <input type="date" name="Дата рождения"
                                 class="inputF"></label>
                         <div class="select_line">Пол <select name="Пол">
-                                <option value="" selected></option>
-                                <option value="М">М</option>
-                                <option value="Ж">Ж</option>
+                                <option value="Не указано" selected>Не указано</option>
+                                <option value="Мужской">Мужской</option>
+                                <option value="Женский">Женский</option>
                             </select>
                         </div>
                     </fieldset>
@@ -53,17 +53,75 @@
                                 placeholder="88002004666" required></label>
                         <div class="select_line1"> Удобное время для связи: </div>
                         <div class="select_line2">
-                            <label><input type="checkbox" name="Время" value="Утро"><span class="timeF">Утро</span></label>
-                            <label><input type="checkbox" name="Время" value="День"><span class="timeF">День</span></label>
-                            <label><input type="checkbox" name="Время" value="Вечер"><span class="timeF">Вечер</span></label>
-                            <label><input type="checkbox" name="Время" value="Ночь"><span class="timeF">Ночь</span></label>
+                            <label><input type="checkbox" name="Время" value="Утро"><span
+                                    class="timeF">Утро</span></label>
+                            <label><input type="checkbox" name="Время" value="День"><span
+                                    class="timeF">День</span></label>
+                            <label><input type="checkbox" name="Время" value="Вечер"><span
+                                    class="timeF">Вечер</span></label>
+                            <label><input type="checkbox" name="Время" value="Ночь"><span
+                                    class="timeF">Ночь</span></label>
                         </div>
                     </fieldset>
 
                     <div class="buttonsF">
-                        <button type="reset" class="buttonF" disabled>Сбросить<img alt="Сбросить" src="images/Cross.svg" width="25"></button>
-                        <button type="submit" class="buttonF">Отправить<img alt="Вправо" src="images/Arrow_right.svg" width="25"></button>
+                        <button type="reset" class="buttonF" disabled>Сбросить<img alt="Сбросить" src="images/Cross.svg"
+                                width="25"></button>
+                        <button type="submit" class="buttonF">Отправить<img alt="Вправо" src="images/Arrow_right.svg"
+                                width="25"></button>
                     </div>
+                </form>
+
+                <form>
+                    <fieldset class="fieldsetF1">
+                        <legend>Определения</legend>
+                        <dl>
+                            <dt>Псевдоэлемент</dt>
+                            <dd>
+                                Элементы, которых не существует в HTML-разметке. Они создаются и
+                                позиционируются исключительно при помощи CSS. Чаще всего используются для создания
+                                различных декоративных элементов (которые не несут содержательного смысла).
+                            </dd>
+                            <dt>Псевдокласс</dt>
+                            <dd>
+                                Особый вид селектора, который уточняет тип или состояние. Обычно это какой-то
+                                качественный признак: реакция на наведение курсора, порядок следования и другие.
+                            </dd>
+                        </dl>
+                    </fieldset>
+                    <fieldset class="fieldsetF2">
+                        <legend>Использованные псевдоклассы и псевдоэлементы</legend>
+                        <div class="checkelements">
+                            <label><input type="checkbox" name="check" value=":hover" checked><span
+                                    class="checkC1">:hover</span></label>
+                            <label><input type="checkbox" name="check" value=":focus" checked><span
+                                    class="checkC2">:focus</span></label>
+                            <label><input type="checkbox" name="check" value=":active" checked><span
+                                    class="checkC1">:active</span></label>
+                            <label><input type="checkbox" name="check" value=":checked" checked><span
+                                    class="checkC2">:checked</span></label>
+                            <label><input type="checkbox" name="check" value=":any-link"><span
+                                    class="checkC1">:any-link</span></label>
+                            <label><input type="checkbox" name="check" value=":empty"><span
+                                    class="checkC2">:empty</span></label>
+                        </div>
+                        <div class="checkclasses">
+                            <label><input type="checkbox" name="check" value="::selection" checked><span
+                                    class="checkC">::selection</span></label>
+                            <label><input type="checkbox" name="check" value="::placeholder" checked><span
+                                    class="checkC">::placeholder</span></label>
+                            <label><input type="checkbox" name="check" value="::first-letter" checked><span
+                                    class="checkC">::first-letter</span></label>
+                            <label><input type="checkbox" name="check" value="::after" checked><span
+                                    class="checkC">::after</span></label>
+                            <label><input type="checkbox" name="check" value="::before"><span
+                                    class="checkC">::before</span></label>
+                            <label><input type="checkbox" name="check" value="::first-line"><span
+                                    class="checkC">::first-line</span></label>
+                        </div>
+
+                    </fieldset>
+
                 </form>
             </div>
 
